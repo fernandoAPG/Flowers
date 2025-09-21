@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flores amarillas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
     <style>
       *,
       *::after,
@@ -31,6 +37,7 @@
         min-height: 100vh;
         background-color: var(--dark-color);
         overflow: hidden;
+        font-family: "DM Sans", sans-serif;
       }
 
       .titulo {
@@ -45,6 +52,7 @@
         opacity: 0;
         animation: fadeIn 4s ease-in-out forwards;
         text-align: center;
+        font-family: "DM Sans", sans-serif;
       }
       @keyframes fadeIn {
         from {
@@ -1739,7 +1747,8 @@
         top: 35vmin; /* 🔹 Ajusta la posición debajo del texto */
         left: 50%;
         transform: translateX(-50%);
-        z-index: 200; /* 🔹 Encima de las flores */
+        z-index: 200;
+        font-family: "DM Sans", sans-serif; /* 🔹 Encima de las flores */
       }
 
       /* Botón */
@@ -1754,6 +1763,7 @@
         cursor: pointer;
         box-shadow: 0 0.5vmin 1vmin rgba(0, 0, 0, 0.3);
         transition: all 0.4s ease;
+        font-family: "DM Sans", sans-serif;
       }
 
       .boton-revelar:hover {
@@ -1798,7 +1808,7 @@
   </head>
   <body class="container">
     <h1 class="titulo">
-      Estas flores son un pequeño gesto para un gran persona
+      Estas flores son un pequeño gesto para una gran persona
     </h1>
     <!-- Botón centrado flotante -->
     <div class="boton-container">
